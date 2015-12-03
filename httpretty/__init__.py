@@ -54,3 +54,8 @@ CONNECT = httpretty.CONNECT
 def last_request():
     """returns the last request"""
     return httpretty.last_request
+
+
+def latest_requests():
+    """returns the last requests"""
+    return httpretty.latest_requests
